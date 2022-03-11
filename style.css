@@ -1,0 +1,80 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+background-image: url(bg.jpg);
+background-size: auto;
+
+}
+
+.toptitle{
+
+    border: 6px solid black;
+    height: 50px;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 200ch;
+    background-color: lightcyan;
+}
+
+.toptitle:hover{
+
+    background-color: white;
+    transition: 0.5s ease-in;
+
+}
+.toptitle span{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 40px; 
+    position: absolute;     
+    left: 34ch;
+
+}
+
+.picture {
+
+    position: absolute; 
+    left: 79ch; 
+    top: 20ch; 
+    border-radius: 10px; 
+    background-color: lightcyan; 
+    border: 5px solid black;
+
+}
+
+.info {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    position: absolute; 
+    top: 35ch; 
+    left: 25ch; 
+    font-size: 27px; 
+    text-align: center; 
+    background-color: rgb(250, 252, 253); 
+    border-radius: 4px;
+    border-bottom: aqua; 
+    border: 5px solid black;
+
+}
+
+.socialmedia{
+
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 27px; 
+    position: absolute; 
+    top: 60ch; 
+    left: 25ch;
+    
+    
+
+    
+}
